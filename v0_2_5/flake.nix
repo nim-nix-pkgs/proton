@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-proton-v0_2_5.flake = false;
+  inputs.src-proton-v0_2_5.ref   = "refs/tags/v0.2.5";
   inputs.src-proton-v0_2_5.owner = "jasonrbriggs";
-  inputs.src-proton-v0_2_5.ref   = "v0_2_5";
   inputs.src-proton-v0_2_5.repo  = "proton-nim";
   inputs.src-proton-v0_2_5.type  = "github";
   
