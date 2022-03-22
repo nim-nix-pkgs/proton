@@ -1,5 +1,5 @@
 {
-  description = ''Proton template engine for xml and xhtml files'';
+  description = ''Proton template engine'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-proton-master.flake = false;
   inputs.src-proton-master.owner = "jasonrbriggs";
-  inputs.src-proton-master.ref   = "refs/heads/master";
+  inputs.src-proton-master.ref   = "master";
   inputs.src-proton-master.repo  = "proton-nim";
   inputs.src-proton-master.type  = "github";
   
