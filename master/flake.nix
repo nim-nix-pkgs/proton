@@ -11,6 +11,7 @@
   inputs.src-proton-master.ref   = "refs/heads/master";
   inputs.src-proton-master.owner = "jasonrbriggs";
   inputs.src-proton-master.repo  = "proton-nim";
+  inputs.src-proton-master.dir   = "";
   inputs.src-proton-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
