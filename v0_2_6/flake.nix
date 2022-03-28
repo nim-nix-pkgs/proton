@@ -11,7 +11,6 @@
   inputs.src-proton-v0_2_6.ref   = "refs/tags/v0.2.6";
   inputs.src-proton-v0_2_6.owner = "jasonrbriggs";
   inputs.src-proton-v0_2_6.repo  = "proton-nim";
-  inputs.src-proton-v0_2_6.dir   = "";
   inputs.src-proton-v0_2_6.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
